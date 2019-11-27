@@ -1,0 +1,153 @@
+/* GLOBAL */
+html {
+    background-color: black;
+    color: white;
+  }
+  p {
+    width: 100%;
+  }
+  /* GLOBAL END*/
+  
+  /* HEADER */
+  .img-container {
+    background-image: url("https://i1.wp.com/carpenterschurch.org/wp-content/uploads/2018/12/new-york-city-black-white-skyline-m.jpg?ssl=1");
+    background-size: cover;
+    position: relative;
+    height: 400px;
+    width: auto;
+    border: 5px solid white;
+    border-radius: 1%;
+  }
+  #title {
+    position: relative;
+    bottom: 350px;
+    font-family: 'New Rocker', cursive;
+    color: white;
+    font-size: 45px;
+  }
+  header p {
+    font-family: 'New Rocker', cursive;
+    font-size: 20px;
+    color: white;
+    position: relative;
+    bottom: 380px;
+  }
+  header {
+    text-align: center;
+  }
+  /* HEADER END */
+  
+  /* MAIN CONTENT */
+  .link-container {
+    text-align: center;
+    position: relative;
+    margin-bottom: 5%;
+  }
+  #tribute-link:hover {
+    background-color: black;
+    color: white;
+    border: 2px white solid;
+    
+  }
+  #tribute-link {
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    font-size: 40px;
+    padding: 15px;
+  }
+  #img-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #image {
+      width: 100%;
+      height: auto;
+      max-width: 1100px;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  
+  }
+  #tribute-info {
+    font-family: 'Vollkorn SC', serif;
+    font-size: 25px;
+    text-align: center;
+    text-shadow: 2px 2px gray;
+    position: relative;
+    bottom: 80px;
+  }
+  #main {
+    font-family: 'Vollkorn SC', serif;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    top: 20px;
+  }
+  #description {
+    font-family: 'IM Fell DW Pica SC', serif;
+    font-size: 40px;
+    text-align: center;
+  }
+  #bybiggie{
+    font-family: 'New Rocker', cursive;
+    font-size: 35px;
+    position: relative;
+    bottom: 30px;
+  }
+  
+  /* MAIN CONTENT END*/
+  
+   /* TRACKS */
+  .songs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  #pic {
+    width: 250px;
+    height: 250px;
+    margin: 50px;
+    border: 5px solid white;
+    border-radius: 50%;
+    filter: grayscale(100%);
+  }
+  .songs p {
+    text-align: center;
+    position: relative;
+    bottom: 45px;
+    font-size: 15px;
+    font-family: 'Titan One', cursive;
+  }
+  #pic:hover {
+   filter: grayscale(0%);
+   transform: scale(1.1);
+   transition-duration: 1s;
+  }
+  
+  @media screen and (max-width: 998px) {
+    .songs {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      
+    }
+  }
+
+  @media screen and (max-width: 998px) {
+    #tribute-link {
+      
+    }
+  /*TRACKS END */
+  
+  footer {
+    text-align: center;
+    position: relative;
+    top: 80px;
+    margin: 10px;
+  }
+  
+  #img-caption{
+    text-align: center;
+  }
